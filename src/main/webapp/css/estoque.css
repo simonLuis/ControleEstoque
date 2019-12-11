@@ -1,0 +1,146 @@
+html{
+    background-color: #eeeeee;
+}
+
+#form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    max-width: 100%;
+    max-height: 100%; 
+    left: auto; 
+    top: auto; 
+    right: auto; 
+    width: auto; 
+    height: auto; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset
+{
+    border: 1px solid #0CD870;
+    /* top: 12%; */
+    max-width: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 100%; */
+    background-color: whitesmoke;
+    border-radius: 18px;
+}
+
+#legenda
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-style:bold;
+    font-size: 30px;
+    position: relative;
+    border: 9px solid #0CD870;
+    border-radius: 18px;
+    color: white;
+    background-color: #0CD870;
+}
+
+#parte1{
+    position:relative;
+    height:80px;
+}
+
+
+#parte2{
+    position:relative;
+    height:80px;
+}
+
+
+#parte3{
+    position:relative;
+    height:80px;
+    margin-bottom: 45px;
+}
+
+.produto{
+    width: 99.5%;
+    
+}
+
+input[type="radio"] {
+    display: inline; 
+}
+
+label{
+    display: inline-block;
+    margin-top: 6px;
+
+}
+
+
+
+textarea{
+    width: 99.5%;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 3.5;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: white;
+    white-space: nowrap;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#submitar{
+    float: right;
+}
+
+input {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: white;
+    white-space: nowrap;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+.bloco{
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;;
+    margin-bottom: auto;
+    width: 85%;
+}
+
+button {
+    height: 38px;
+    padding: 0 30px;
+    color: green;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+    cursor: pointer;}
+
+#cadastroProdutos{
+    position: relative;
+    top: 2%;
+}

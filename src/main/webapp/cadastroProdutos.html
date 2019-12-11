@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/estoque.css">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    
+
+<div class="container_links_header">
+    <a class="links_header a" href="https://www.google.com" target="_blank">home</a>
+    <a class="links_header a" href="https://www.google.com" target="_blank">sair</a>
+</div>
+
+<!-- barra verde de cima -->
+
+
+<!-- aqui vai todo conteudo da página -->
+
+
+<div class="bloco">
+    
+        
+    <form id="form">
+        <fieldset>
+            <legend id="legenda">Cadastro de Produtos</legend>
+            <div id="cadastroProdutos">
+                <div id="parte1">
+                    <label for="nome">Nome:</label>
+                    <p><input id="nome" type="text" class="produto" required autofocus autocomplete="off" onblur="autocompletar()"></p>
+                </div>
+                <div id="parte2">
+                    <label for="valor">Preço:</label>
+                    <p><input id="val" type="number" step="any" class="produto" required placeholder= "R$" autocomplete="off"></p>
+                </div>
+                <div id="parte3">
+                    <label for="desc">Medida:</label>
+                    <p><input id="medida" type="text" class="produto" required placeholder= "Unidade" autocomplete="off"></p>
+                </div>
+                
+                <div class="button">
+                    <button type="reset">Apagar </button>
+                <div id="submitar">
+                    <button type="submit" onclick= "validar()">Cadastrar</button>
+                </div>    
+        </div>
+    </fieldset>
+</form>
+
+</div>
+
+<!-- aqui vai todo conteudo da página -->
+
+</body>
+
+
+<script>
+    function openSideMenu() {
+        document.getElementById('side_menu').style.width = '250px'
+        // document.getElementById('main').style.marginLeft = '250px'
+    }
+   
+    function closeSideMenu() {
+        document.getElementById('side_menu').style.width = '0px'
+        // document.getElementById('main').style.marginLeft = '0px'
+    }
+</script>
+</html>
