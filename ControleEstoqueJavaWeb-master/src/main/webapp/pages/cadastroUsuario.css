@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family: "Confortaa", sans-serif;
+	background-color: #f5f4f4;	
+}
+
+h1,h2{
+	margin-top: 15px;
+	height:30px;
+	font-size: 28px;
+	text-align: center;
+	border: 2px;
+	border-radius: 15px;
+	background-color: #5dff5a;
+	border-radius: 15px;
+}
+
+.cadastro{
+	whidth: 100px;
+	height: 715px;
+	border: 2px outset;
+	border-radius: 15px;
+	top: 50%;
+	left: 50%;
+	margin: 90px 120px 90px 120px;
+	padding: 30px 80px;
+	background-color: #ffffff;
+	border-color:#5dff5a;
+	
+}
+
+.cadastro input[id="email"], input[type="password"]{
+	border: 1px solid;
+	height: 15px;
+	margin: 10px 35px;
+	font-size: 16px;
+	left:35px;
+	position: relative;
+	
+}
+.cadastro input:hover {
+ 	border: 2px solid #00BFFF;
+ }
+ 
+ .cadastro input{
+	border: 1px solid;
+	height: 15px;
+	margin: 10px 35px;
+	font-size: 16px;
+	left:35px;
+	position: relative;
+	border-color:#5dff5a;
+	background-color:#ffffff;
+ }
+ 
+ .cadastro input[type="button"]{
+ width: 100px;
+ height: 25px;
+ border-radius: 7px;
+ border-color: #000000;
+ }
+ .cadastro input[id="salvar"]{
+ background-color: #6572f3;
+ color: #ffffff;
+ }
+ 
+ .cadastro input[id="voltar"]{
+ background-color: #ff172a;
+ color: #ffffff;
+ }
+
+.cadastro select{
+	border-radius: 15px;
+	border-color:#5dff5a 
+}
+strong{
+	color:red;
+}
+
+
+

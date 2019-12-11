@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+ 
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Tabela de produtos</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="scripts/relatorio.js"></script>
+    <script type="text/javascript" src="script/tabela.js"></script>
+    <link rel="stylesheet" href="css/tabela.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Menu</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="tabela.html">Produtos</a></li>
+                <li><a href="relatorio.html">Relatório</a></li>
+                <li><a href="pages/login.jsp">Sair</a></li>
+            </ul>
+            <ul class="side-nav" id="menu-mobile">
+                <li><a href="tabelas.html">Produtos</a></li>
+                <li><a href="relatorio.html">Relaórios</a></li>
+                <li><a href="pages/login.jsp">Sair</a></li>
+            </ul>
+        </div>
+        <div id="produto-container">
+            
+        </div>
+    </nav> 
+        <footer id="scripts">
+		<script>
+			$(document).ready(function(){
+				$("#menuSair").click(function(){
+					$(location).attr('href', './pages/login.jsp');
+				});
+				
+			});
+	
+	
+		</script>
+    </footer>
+</body>
+</html>

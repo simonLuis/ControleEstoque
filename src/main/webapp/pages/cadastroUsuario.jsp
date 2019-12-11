@@ -71,18 +71,18 @@
 	
 	<script>
 		<!--Função que vai para o botão voltar, e manda para Home.-->
-$(document).ready(function(){
-	$("#voltar").click(function(){
-		window.history.back(-1);
-	});
-});
+		$(document).ready(function(){
+			$("#voltar").click(function(){
+				window.history.back(-1);
+			});
+		});
 
 	<!--Requisição Ajax que manda o form para o Servlet-->
 
 	$("#salvar").click(function(){
 		
 		$.ajax({
-			url: "/cadastroNovoUser",
+			url: "http://192.168.0.12/ControleEstoqueJavaWeb/cadastroNovoUser",
 			type: "POST",
 			data: {
 				"idUsuario": $("idUsuario").val(),
@@ -108,9 +108,10 @@ $(document).ready(function(){
 				
 			},
 			<!--Se a requisição der erro mostra mensagem.-->
+			
 			error: function(){
 				alert ("Erro ao requisitar para o servidor, por favor tente novamente mais tarde.");
-				}
+			}
 		});
 		
 	});

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/relatorio.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a id="menu" href="#" class="brand-logo">Menu</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="tabela.html">Produtos</a></li>
+                <li><a href="relatorio.html">Relatório</a></li>
+                <li><a href="pages/login.jsp">Sair</a></li>
+            </ul>
+            <ul class="side-nav" id="menu-mobile">
+                <li><a href="tabela.html">Produtos</a></li>
+                <li><a href="relatorio.html">Relaórios</a></li>
+                <li><a href="pages/login.jsp">Sair</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main id="principal" class="m-4">
+
+        <legend>
+            <h4>Relatório</h4>
+        </legend>
+        </section>
+        <fieldset id="dados" class="w-50">
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            Usuários
+                        </th>
+                        <th scope="col">
+                            Data de solicitação
+                        </th>
+                        <th scope="col">
+                            Produto
+                        </th>
+                        <th scope="col">
+                            Quantidade
+                        </th>
+                        <th scope="col">
+                            Valor total 
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td id="usuario"></td>
+                        <td id="dataSolicitacao"></td>
+                        <td id="produto"></td>
+                        <td id="quantidade"></td>
+                        <td id="valorTotal"></td>
+                    </tr>
+                    <tr>
+                        <td>a</td>
+                        <td>b</td>
+                        <td>c</td>
+                        <td>d</td>
+                        <td>e</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                </tbody>
+            </table>
+        </fieldset>
+    </main>
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootbox.min.js"></script>
+    <script type="text/javascript" src="scripts/relatorio.js" charset="utf-8"></script>
+
+</body>
+
+</html>
